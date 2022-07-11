@@ -1,3 +1,4 @@
 PROJECT.org
 **/*~
 .env
+/node_modules/
