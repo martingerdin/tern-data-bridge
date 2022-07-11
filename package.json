@@ -1,0 +1,15 @@
+{
+  "name": "tern-data-bridge",
+  "version": "1.0.0",
+  "description": "Gets TERN data from KoBo-toolbox and pushes it to Contentful",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mgw",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-fetch": "^2.6.7"
+  }
+}

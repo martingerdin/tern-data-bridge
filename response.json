@@ -1,0 +1,793 @@
+{
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7.json",
+      "date_modified": "2022-06-10T08:07:57.628414Z",
+      "date_created": "2022-04-20T12:22:17.106669Z",
+      "owner": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+      "summary": {
+        "geo": false,
+        "labels": [
+          "Patient details (not uploaded)",
+          "Patient name",
+          "Patient ward number / name",
+          "Indoor file / Case record / Indoor patient department number",
+          "Patient's phone number(s)"
+        ],
+        "columns": [
+          "name",
+          "type",
+          "label",
+          "required",
+          "read_only",
+          "appearance",
+          "hint",
+          "default",
+          "constraint",
+          "constraint_message",
+          "select_from_list_name",
+          "relevant",
+          "calculation"
+        ],
+        "lock_all": false,
+        "lock_any": false,
+        "languages": [
+          null
+        ],
+        "row_count": 174,
+        "naming_conflicts": [
+          "num_blood transfusion_within_1h",
+          "num_blood transfusion_within_24h",
+          "physician_likely_cause _death",
+          "pulmonary complication_reason",
+          "septic shock_reason"
+        ],
+        "default_translation": null
+      },
+      "owner__username": "johannab",
+      "parent": null,
+      "uid": "aBQuW2Hsm4WoHoXV2RzEa7",
+      "tag_string": "",
+      "settings": {
+        "data-table": {
+        },
+        "description": ""
+      },
+      "kind": "asset",
+      "name": "TERN datacollection - PRODUCTION - Site 11542",
+      "asset_type": "survey",
+      "version_id": "v4nATnoPYWaVYEFDVV6AdL",
+      "has_deployment": true,
+      "deployed_version_id": "vhWFqkuerHFPMkcGeYk2UN",
+      "deployment__identifier": "https://kc.kobo.prod.in.noacs.io/johannab/forms/aBQuW2Hsm4WoHoXV2RzEa7",
+      "deployment__active": true,
+      "deployment__submission_count": 51,
+      "permissions": [
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pJqZPCPg4ryjTFkucSH3qz/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/annaa.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/add_submissions.json",
+          "label": "Add submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pn49XwJZsZfA7g7v4Y2w2R/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/annaa.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_asset.json",
+          "label": "Edit form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pykUYnWL5smPqJrL95j6gk/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/annaa.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_submissions.json",
+          "label": "Edit submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pEbtQtSD5eMrfe8wEUTEiw/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/annaa.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_asset.json",
+          "label": "View form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pXCCEPL6EjdYzFocGEvTmx/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/annaa.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_submissions.json",
+          "label": "View submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pu2ks5fjGRGqcW9UmnHiWw/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/add_submissions.json",
+          "label": "Add submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pTKTMr8szQeLaXVXPG79Sp/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_asset.json",
+          "label": "Edit form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pAyCNShFKAuD8gQLGsxSq6/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_submissions.json",
+          "label": "Edit submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/ps7LE8eEqSAuRb2zaugYx6/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/delete_submissions.json",
+          "label": "Delete submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/puqju96AcWHXnsmcom4nBe/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/manage_asset.json",
+          "label": "Manage project"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/p5DqMCXUcYE3LdmvW3xuws/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/validate_submissions.json",
+          "label": "Validate submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/py8ozeQgSwFb9qV52sUG8v/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_asset.json",
+          "label": "View form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pqduckVdzYZV3fcu7fN33i/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_submissions.json",
+          "label": "View submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pZ4mWByH59SoKEr8dcrGWA/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/add_submissions.json",
+          "label": "Add submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pK5WQBBGZWH4VBjcYJpvzJ/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_asset.json",
+          "label": "Edit form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/p6NKYrFiVonekYAPMq6uch/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_submissions.json",
+          "label": "Edit submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pT5hooxzWfgcVJyJRk2F5V/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/delete_submissions.json",
+          "label": "Delete submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pVkAfY88NqrRG9cawVvDsS/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/manage_asset.json",
+          "label": "Manage project"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pVqUVYTDP7P9VugT6spMsi/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/validate_submissions.json",
+          "label": "Validate submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pt8moGHudHWC4He5BM9Qr2/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_asset.json",
+          "label": "View form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/prH4dvCuDFGFyAkPZHYiaG/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_submissions.json",
+          "label": "View submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pVmCxbBADCjn3cbsHieMpp/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/add_submissions.json",
+          "label": "Add submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/prGd9J6p5fStAMruESht8Q/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_asset.json",
+          "label": "Edit form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pTBdFcaCFNvTTt9BSfuoRS/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_submissions.json",
+          "label": "Edit submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pBEdTCGkEJ88oJqY8aMk95/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/delete_submissions.json",
+          "label": "Delete submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/phdWzaMbuHF7Jas7izoZ5C/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/manage_asset.json",
+          "label": "Manage project"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pyrWMSeD9MB4HSwqu6HNro/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/validate_submissions.json",
+          "label": "Validate submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/p3QHNQp6miX8rWsgC5zsv5/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_asset.json",
+          "label": "View form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/permission-assignments/pq56C2YwhJAezmnMAUyyzX/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_submissions.json",
+          "label": "View submissions"
+        }
+      ],
+      "export_settings": [
+        {
+          "uid": "eshwffpq4uYEuvNpJvZyB4t",
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/export-settings/eshwffpq4uYEuvNpJvZyB4t/",
+          "data_url_csv": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/export-settings/eshwffpq4uYEuvNpJvZyB4t/data.csv",
+          "data_url_xlsx": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/export-settings/eshwffpq4uYEuvNpJvZyB4t/data.xlsx",
+          "name": "",
+          "date_modified": "2022-07-09 19:40:44.795928+00:00",
+          "export_settings": {
+            "lang": "_default",
+            "type": "csv",
+            "fields": [
+              "no_upload/patient_name"
+            ],
+            "group_sep": "/",
+            "multiple_select": "both",
+            "include_media_url": true,
+            "hierarchy_in_labels": false,
+            "fields_from_all_versions": true
+          }
+        }
+      ],
+      "downloads": [
+        {
+          "format": "xls",
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7.xls"
+        },
+        {
+          "format": "xml",
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7.xml"
+        }
+      ],
+      "data": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aBQuW2Hsm4WoHoXV2RzEa7/data.json",
+      "subscribers_count": 0,
+      "status": "shared",
+      "access_types": null,
+      "children": {
+        "count": 0
+      },
+      "data_sharing": {
+      }
+    },
+    {
+      "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E.json",
+      "date_modified": "2022-06-07T16:24:12.872762Z",
+      "date_created": "2022-04-20T13:03:04.203567Z",
+      "owner": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+      "summary": {
+        "geo": false,
+        "labels": [
+          "Patient details (not uploaded)",
+          "Patient name",
+          "Patient ward number / name",
+          "Indoor file / Case record / Indoor patient department number",
+          "Patient's phone number(s)"
+        ],
+        "columns": [
+          "name",
+          "type",
+          "label",
+          "required",
+          "read_only",
+          "appearance",
+          "hint",
+          "default",
+          "constraint",
+          "constraint_message",
+          "select_from_list_name",
+          "relevant",
+          "calculation"
+        ],
+        "lock_all": false,
+        "lock_any": false,
+        "languages": [
+          null
+        ],
+        "row_count": 175,
+        "naming_conflicts": [
+          "num_blood transfusion_within_1h",
+          "num_blood transfusion_within_24h",
+          "physician_likely_cause _death",
+          "pulmonary complication_reason",
+          "septic shock_reason"
+        ],
+        "default_translation": null
+      },
+      "owner__username": "johannab",
+      "parent": null,
+      "uid": "aoGBRwugyXZhPeJgSWBN3E",
+      "tag_string": "",
+      "settings": {
+        "data-table": {
+          "show-hxl-tags": false,
+          "show-group-name": false,
+          "translation-index": -1
+        }
+      },
+      "kind": "asset",
+      "name": "TERN datacollection - PRODUCTION - Site 44805",
+      "asset_type": "survey",
+      "version_id": "vYv7SNEzMYJuww6eajFSCC",
+      "has_deployment": true,
+      "deployed_version_id": "vqJTfW9ab2zSGasjiHaokh",
+      "deployment__identifier": "https://kc.kobo.prod.in.noacs.io/johannab/forms/aoGBRwugyXZhPeJgSWBN3E",
+      "deployment__active": true,
+      "deployment__submission_count": 17,
+      "permissions": [
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pSSDYDRnUvJDBdrHEjPx4A/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/annaa.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/add_submissions.json",
+          "label": "Add submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/p5j3sFMHSiDaGSAQxiCM4S/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/annaa.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_submissions.json",
+          "label": "Edit submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pTR8H6wqWtAjRvxEiCWdnX/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/annaa.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_asset.json",
+          "label": "View form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/px6QkNmnXo9YSZa83BUdm5/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/annaa.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_submissions.json",
+          "label": "View submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/puVCcMbbN4C5rSqaSSeHHX/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/add_submissions.json",
+          "label": "Add submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pDnQ6oXcvNpFpSr2kVkSyo/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_asset.json",
+          "label": "Edit form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pFVZapPsfnfsDTyYNqGL74/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_submissions.json",
+          "label": "Edit submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pPvMnVt5MSL9mqd4RZiPCM/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/delete_submissions.json",
+          "label": "Delete submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pmawXiRyBfyWbmj9YotV9F/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/manage_asset.json",
+          "label": "Manage project"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/ptuyYZsYteB2NKSQccrXpe/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/validate_submissions.json",
+          "label": "Validate submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pUAv22BLV8kMobscYjQgvd/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_asset.json",
+          "label": "View form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pxBEnyFLTUKWvygajVwQFE/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_submissions.json",
+          "label": "View submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pKGr2vwcZWXEifzV8Qdnd3/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/add_submissions.json",
+          "label": "Add submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pLmrv3Q3tZg79xkRSmC5YV/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_asset.json",
+          "label": "Edit form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pNXCYJWZnyZmjqziKyTFxM/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_submissions.json",
+          "label": "Edit submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/puph9wm9qcTVy5JKQA5MHd/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/delete_submissions.json",
+          "label": "Delete submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/p2amUDYE6YquTbb7F2vtsY/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/manage_asset.json",
+          "label": "Manage project"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pGKReubPpbR24H2M8xCFhL/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/validate_submissions.json",
+          "label": "Validate submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pEknsAKLopRRoXDjicx4GC/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_asset.json",
+          "label": "View form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pKc3H62YYdJrHpQamD8qms/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_submissions.json",
+          "label": "View submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pVUuwwaeBwMxaJqVR8TGVA/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/add_submissions.json",
+          "label": "Add submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pjGA5PQoTZtSkjKbbhtCrm/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_asset.json",
+          "label": "Edit form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pinWgGVc9ASBozT5BzcJFg/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_submissions.json",
+          "label": "Edit submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pYrBUnvWtkzYWCPGpFNHiS/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/delete_submissions.json",
+          "label": "Delete submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pCYKthE7Ev3PzpS752yygz/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/manage_asset.json",
+          "label": "Manage project"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pDttww3xxvmShvYZYrm8A5/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/validate_submissions.json",
+          "label": "Validate submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pDShheLGYy3sFoDn7eNkL8/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_asset.json",
+          "label": "View form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/permission-assignments/pqsbcGsbcKPwq6rEPfzJ6U/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_submissions.json",
+          "label": "View submissions"
+        }
+      ],
+      "export_settings": [],
+      "downloads": [
+        {
+          "format": "xls",
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E.xls"
+        },
+        {
+          "format": "xml",
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E.xml"
+        }
+      ],
+      "data": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/aoGBRwugyXZhPeJgSWBN3E/data.json",
+      "subscribers_count": 0,
+      "status": "shared",
+      "access_types": null,
+      "children": {
+        "count": 0
+      },
+      "data_sharing": {
+      }
+    },
+    {
+      "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr.json",
+      "date_modified": "2022-04-24T19:16:16.955819Z",
+      "date_created": "2022-04-21T10:39:48.259165Z",
+      "owner": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+      "summary": {
+        "geo": false,
+        "labels": [
+          "Patient details (not uploaded)",
+          "Patient name",
+          "Patient ward number / name",
+          "Indoor file / Case record / Indoor patient department number",
+          "Patient's phone number(s)"
+        ],
+        "columns": [
+          "name",
+          "type",
+          "label",
+          "required",
+          "read_only",
+          "appearance",
+          "hint",
+          "default",
+          "constraint",
+          "constraint_message",
+          "select_from_list_name",
+          "relevant",
+          "calculation"
+        ],
+        "lock_all": false,
+        "lock_any": false,
+        "languages": [
+          null
+        ],
+        "row_count": 174,
+        "naming_conflicts": [
+          "num_blood transfusion_within_1h",
+          "num_blood transfusion_within_24h",
+          "physician_likely_cause _death",
+          "pulmonary complication_reason",
+          "septic shock_reason"
+        ],
+        "default_translation": null
+      },
+      "owner__username": "johannab",
+      "parent": null,
+      "uid": "a7oH7n9YfPJfZagjS5usKr",
+      "tag_string": "",
+      "settings": {
+        "description": ""
+      },
+      "kind": "asset",
+      "name": "TERN datacollection - PRODUCTION - Site 78344",
+      "asset_type": "survey",
+      "version_id": "vKeMCee8R9Wi3tQzcXv8BT",
+      "has_deployment": true,
+      "deployed_version_id": "vKeMCee8R9Wi3tQzcXv8BT",
+      "deployment__identifier": "https://kc.kobo.prod.in.noacs.io/johannab/forms/a7oH7n9YfPJfZagjS5usKr",
+      "deployment__active": true,
+      "deployment__submission_count": 7,
+      "permissions": [
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pHCouS2rcND7iwcJtWkuKC/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/add_submissions.json",
+          "label": "Add submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pw5oPgLt5ixAKCUgx4an8j/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_asset.json",
+          "label": "Edit form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pXxYbydjdgYXyaohM74owb/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_submissions.json",
+          "label": "Edit submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/p8xWiiAb3nkVwY9J4t3xPa/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/delete_submissions.json",
+          "label": "Delete submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/paC4vpusBD5FHLFyKZ8thp/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/manage_asset.json",
+          "label": "Manage project"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pst2cnWK97bESAtRsPcyp7/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/validate_submissions.json",
+          "label": "Validate submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/ph92UU5GQccqWetPbP77m3/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_asset.json",
+          "label": "View form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pdwM8VtAG6wdQPPpJbm2qZ/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/johannab.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_submissions.json",
+          "label": "View submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pbbCeo9afiqTgvXSkYQ9Ei/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/add_submissions.json",
+          "label": "Add submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pwfQu8zh8epXZ3YHZiAg7Q/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_asset.json",
+          "label": "Edit form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pjTLFWKwrhCQbDjhmWsSkN/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_submissions.json",
+          "label": "Edit submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pUVjqJwbwGoSorBemGsiHk/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/delete_submissions.json",
+          "label": "Delete submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pETAuhmyZm38v7Bt3cTNkX/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/manage_asset.json",
+          "label": "Manage project"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/peWqzbmvbfAi7j9Ji2Ngkk/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/validate_submissions.json",
+          "label": "Validate submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pvAsGxm24Zie2n7CLPPY2g/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_asset.json",
+          "label": "View form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pnjcr5AFzkMC4LFiMQd7Bn/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/marting.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_submissions.json",
+          "label": "View submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pEXbEuP48ETNkXWbBVk8XC/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/add_submissions.json",
+          "label": "Add submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pYFGyYct5tbWa6ahZ3d4FL/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_asset.json",
+          "label": "Edit form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pqUiMhNPcnWD5qnsjsEkAT/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_submissions.json",
+          "label": "Edit submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pzN8TqepjZNXDefqGGrno9/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/delete_submissions.json",
+          "label": "Delete submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/p755LBiRRRksKStRxJwQ86/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/manage_asset.json",
+          "label": "Manage project"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pTkvMryG873Q7huo8ryUiT/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/validate_submissions.json",
+          "label": "Validate submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pNSKV7mR9EGeZZNamhUieF/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_asset.json",
+          "label": "View form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/prgmKV5FdyusHZQSincSE5/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/sidd.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_submissions.json",
+          "label": "View submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pGGq8ameV3JADJ4Xqz2vk7/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/tamalk.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/add_submissions.json",
+          "label": "Add submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pcWDo7aZvDjJJHMsgTVznD/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/tamalk.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/change_submissions.json",
+          "label": "Edit submissions"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pJTs3Yz768s4zZC8nMN5Vh/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/tamalk.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_asset.json",
+          "label": "View form"
+        },
+        {
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/permission-assignments/pKmvWLdoGEgsgwgrUhBrYA/",
+          "user": "https://kf.kobo.prod.in.noacs.io/api/v2/users/tamalk.json",
+          "permission": "https://kf.kobo.prod.in.noacs.io/api/v2/permissions/view_submissions.json",
+          "label": "View submissions"
+        }
+      ],
+      "export_settings": [],
+      "downloads": [
+        {
+          "format": "xls",
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr.xls"
+        },
+        {
+          "format": "xml",
+          "url": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr.xml"
+        }
+      ],
+      "data": "https://kf.kobo.prod.in.noacs.io/api/v2/assets/a7oH7n9YfPJfZagjS5usKr/data.json",
+      "subscribers_count": 0,
+      "status": "shared",
+      "access_types": null,
+      "children": {
+        "count": 0
+      },
+      "data_sharing": {
+      }
+    }
+  ]
+}
