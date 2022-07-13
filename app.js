@@ -19,18 +19,11 @@ async function pushToContentful(data) {
   const environment = await client
 	.getSpace(contentfulSpace)
 	.then((space) => space.getEnvironment("master"));
-  const entry = await environment.createEntry("enrolledPatients", {
-    fields: {
-      title: {
-	"en-US": "Enrolled patients",
-      },
-      numberOfEnrolledPatients: {
-	"en-US": {data},
-      }
-    }
-  });
-  entry.publish();
+  const entry = await environment.getEntry("78TOLnzeDAxvjhMRnnsK2I");
   console.log(entry);
+  entry.fields.numberOfEnrolledPatients["en-US"] = data;
+  entry.fields.dateAdded["en-US"] = Date.now();
+  entry.update();
 }
 
 fs.readFile("./response.json", "utf8", (err, response) => {
