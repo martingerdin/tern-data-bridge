@@ -9,6 +9,7 @@
   "author": "mgw",
   "license": "ISC",
   "dependencies": {
+    "contentful-management": "^10.8.0",
     "dotenv": "^16.0.1",
     "node-fetch": "^2.6.7"
   }
