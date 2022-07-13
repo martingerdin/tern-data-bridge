@@ -5,8 +5,7 @@ const fs = require("fs");
 const contentful = require("contentful-management");
 require("dotenv").config();
 
-// fetch('https://api.github.com/users/github').then(response => response.json()).then(data => console.log(data));
-
+const koboUrl = process.env.KOBO_URL;
 const koboApiKey = process.env.KOBO_API_KEY;
 const contentfulApiKey = process.env.CONTENTFUL_API_KEY;
 const contentfulSpace = process.env.CONTENTFUL_SPACE;
@@ -27,15 +26,19 @@ async function pushToContentful(data) {
   console.log(updatedEntry);
 }
 
-fs.readFile("./response.json", "utf8", (err, response) => {
-  const data = JSON.parse(response);
-  const { results } = data;
-  const submissionCounts = results.map(result => result.deployment__submission_count);
-  pushToContentful(submissionCounts);
-  console.log(submissionCounts);
-});
-
-
+fetch(koboUrl,
+      {
+	method: "get",
+	headers: {"Authorization": `Token ${koboApiKey}` }
+      })
+  .then(response => response.json())
+  .then(data => {
+    const { results } = data;
+    const submissionCounts = results.map(result => result.deployment__submission_count);
+    if (submissionCounts.every(element => typeof element === "number")) {
+      pushToContentful(submissionCounts);
+    };
+  });
 
 
 
