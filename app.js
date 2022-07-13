@@ -15,28 +15,35 @@ const client = contentful.createClient({
   accessToken: contentfulApiKey
 })
 
+async function pushToContentful(data) {
+  const environment = await client
+	.getSpace(contentfulSpace)
+	.then((space) => space.getEnvironment("master"));
+  const entry = await environment.createEntry("enrolledPatients", {
+    fields: {
+      title: {
+	"en-US": "Enrolled patients",
+      },
+      numberOfEnrolledPatients: {
+	"en-US": {data},
+      }
+    }
+  });
+  entry.publish();
+  console.log(entry);
+}
 
 fs.readFile("./response.json", "utf8", (err, response) => {
   const data = JSON.parse(response);
   const { results } = data;
   const submissionCounts = results.map(result => result.deployment__submission_count);
+  pushToContentful(submissionCounts);
   console.log(submissionCounts);
 });
 
-client.getSpace(contentfulSpace)
-.then((space) => space.getEnvironment("master"))
-.then((environment) => environment.createEntry("enrolledPatients", {
-  fields: {
-    title: {
-      "en-US": "Enrolled patients",
-    },
-    numberOfEnrolledPatients: {
-      "en-US": {"test": "test"},
-    }
-  }
-}))
-.then((entry) => console.log(entry))
-.catch(console.error)
+
+
+
 
 
   
